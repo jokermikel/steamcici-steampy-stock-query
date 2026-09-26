@@ -1,0 +1,23 @@
+# 凭证与偏好设置：含明文 Token，切勿提交到代码仓库
+steamcici_config.json
+
+# WorkBuddy 工作目录（助手内部的项目笔记，不属于项目产物）
+.workbuddy/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 导出产物（库存表以 steamcici_ 或 steampy_ 开头）
+steamcici_*.xlsx
+steamcici_*.csv
+steampy_*.xlsx
+steampy_*.csv
+*_库存_*.xlsx
+*_库存_*.csv
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
